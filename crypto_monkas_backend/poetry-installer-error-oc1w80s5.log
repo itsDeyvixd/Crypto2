@@ -1,0 +1,22 @@
+No pyvenv.cfg file
+Traceback (most recent call last):
+  File "C:\Users\deyvi\AppData\Local\Programs\Python\Python310\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\deyvi\AppData\Local\Programs\Python\Python310\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\deyvi\AppData\Local\Programs\Python\Python310\lib\ensurepip\__main__.py", line 5, in <module>
+    sys.exit(ensurepip._main())
+  File "C:\Users\deyvi\AppData\Local\Programs\Python\Python310\lib\ensurepip\__init__.py", line 287, in _main
+    return _bootstrap(
+  File "C:\Users\deyvi\AppData\Local\Programs\Python\Python310\lib\ensurepip\__init__.py", line 203, in _bootstrap
+    return _run_pip([*args, *_PACKAGE_NAMES], additional_paths)
+  File "C:\Users\deyvi\AppData\Local\Programs\Python\Python310\lib\ensurepip\__init__.py", line 104, in _run_pip
+    return subprocess.run(cmd, check=True).returncode
+  File "C:\Users\deyvi\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 524, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\deyvi\\AppData\\Roaming\\pypoetry\\venv\\Scripts\\python.exe', '-I', '-W', 'ignore::DeprecationWarning', '-c', '\nimport runpy\nimport sys\nsys.path = [\'C:\\\\Users\\\\deyvi\\\\AppData\\\\Local\\\\Temp\\\\tmphcb970bz\\\\setuptools-63.2.0-py3-none-any.whl\', \'C:\\\\Users\\\\deyvi\\\\AppData\\\\Local\\\\Temp\\\\tmphcb970bz\\\\pip-22.2.2-py3-none-any.whl\'] + sys.path\nsys.argv[1:] = [\'install\', \'--no-cache-dir\', \'--no-index\', \'--find-links\', \'C:\\\\Users\\\\deyvi\\\\AppData\\\\Local\\\\Temp\\\\tmphcb970bz\', \'--upgrade\', \'setuptools\', \'pip\']\nrunpy.run_module("pip", run_name="__main__", alter_sys=True)\n']' returned non-zero exit status 106.
+
+Traceback:
+
+  File "<stdin>", line 919, in main
+  File "<stdin>", line 552, in run
